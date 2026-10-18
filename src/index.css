@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @media print {
+    @page {
+      size: A4 portrait;
+      margin: 8mm 8mm 8mm 8mm;
+    }
+    
+    @page landscape {
+      size: A4 landscape;
+      margin: 6mm 6mm 6mm 6mm;
+    }
+
+    body {
+      background-color: #ffffff !important;
+      color: #000000 !important;
+      font-size: 10px;
+      line-height: 1.2;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+
+    .print-portrait {
+      page: portrait;
+    }
+
+    .print-landscape {
+      page: landscape;
+    }
+
+    .page-break-before {
+      page-break-before: always;
+      break-before: page;
+    }
+
+    .page-break-avoid {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+
+    .print-hidden,
+    header,
+    nav,
+    footer,
+    button:not(.allow-print) {
+      display: none !important;
+    }
+  }
+}

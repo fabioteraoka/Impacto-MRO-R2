@@ -1,0 +1,6 @@
+{
+  "name": "Impacto Aviation MRO - Sistema de Gestão Aeronáutica (ANAC COM 200607-05 / EASA.145.1003)",
+  "description": "Sistema MRO de Manutenção Aeronáutica da Impacto Aviation (COM 200607-05/ANAC e EASA.145.1003). Módulos: Garantia da Qualidade & Auditoria MOMQ 5.7, Liberação para Retorno ao Serviço (RTS/RBAC 43.9/EASA Part-145 Dual Release), Anotação LTA, Dossiê e Arquivo Técnico (MOMQ 6.5), Execução de Linha e Hangar (F 001-09-2), Relatório de Inspeção (F 001-12), Passagem de Turno (F 001-24), IIO (MOMQ 5.4), PCP (I 001-09), CTM & Diretrizes (F 001-02/03), Ferramentaria (F 001-06) e Qualificação (F 001-03).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
